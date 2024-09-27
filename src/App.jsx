@@ -3,7 +3,7 @@ import axios from 'axios';
 import "./App.css"
 const CatCard = () => {
   const [cats, setCats] = useState([]);
-  const [page, setPage] = useState(10);
+  const [page, setPage] = useState(5);
   const [loading, setLoading] = useState(false);
 
   const fetchCats = async () => {
